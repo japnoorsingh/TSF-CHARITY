@@ -1,0 +1,66 @@
+/* RESPONSIVE */
+
+.line{
+    width:33px;
+    background-color: black;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.burger{
+    display: none;
+    position: absolute;cursor:pointer;
+    right: 5%;
+    top:15px;
+}
+
+@media only screen and (max-width: 1100px){
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .navbar{
+        flex-direction: column;
+        transition: all 0.5s ease-in-out;
+        height: 800px;
+    }
+
+    .logo img{
+        width:100%;
+        margin: 30px;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 60px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .box-main{
+        max-width:100%;
+    }
+
+    .content{
+        flex-direction: column-reverse;
+        max-width:90%
+    }
+
+    .thumbnail img{
+        width: 300px;
+    }
+
+    .background{
+        background-color: black;
+        background-size:contain;
+    }
+
+    .btn{
+        font-size:20px;
+    }
+}
