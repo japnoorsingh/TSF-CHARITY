@@ -63,7 +63,7 @@ html{
 /* Body */
 
 .background{
-    background-image: url("/assets/images/bg.png");
+    background-image: url("../images/bg.png");
     /* background: rgba(0,0,0,0.5) url("/assets/images/bg.png"); */
     background-repeat: no-repeat;
     /* background-size:cover; */
